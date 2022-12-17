@@ -2,7 +2,7 @@ import random
 
 
 class Human:
-    def __init__(self, name="Human", job=None, home=None, car=None):
+    def __init__(self, name="Human", job=None, home=None, car=None, travel = None):
         self.name = name
         self.money = 100
         self.gladness = 50
@@ -10,6 +10,7 @@ class Human:
         self.job = job
         self.home = home
         self.car = car
+        self.travel = travel
 
     def get_home(self):
         self.home = Home()
